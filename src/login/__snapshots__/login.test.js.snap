@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> Rendering... Should match <Login /> snapshot 1`] = `
+<div>
+  <div
+    className="text-center"
+  >
+    <h1
+      className="logo-name"
+    >
+      marketplace
+    </h1>
+  </div>
+  <div
+    className="middle-box text-center loginscreen animated fadeInDown"
+  >
+    <div>
+      <h3>
+        Welcome to the Marketplace
+      </h3>
+      <p>
+        Please enter your username and password to log in.
+      </p>
+      <form
+        className="m-t"
+        role="form"
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            placeholder="Username"
+            required=""
+            type="email"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            placeholder="Password"
+            required=""
+            type="password"
+          />
+        </div>
+        <button
+          className="btn btn-primary block full-width m-b"
+          type="submit"
+        >
+          Login
+        </button>
+        <a
+          aria-current={false}
+          className={undefined}
+          href="forgot_password"
+          onClick={[Function]}
+          style={undefined}
+        >
+          <small>
+            Forgot password?
+          </small>
+        </a>
+        <p
+          className="text-muted text-center"
+        >
+          <small>
+            Do not have an account?
+          </small>
+        </p>
+        <p
+          className="text-muted text-center"
+        >
+          Contact Sales Or Your Account Manager
+        </p>
+      </form>
+      <p
+        className="m-t"
+      >
+         
+        <small>
+          Konnektive Corp. © 2018
+        </small>
+         
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should match <Login /> snapshot 1`] = `
+<div>
+  <div
+    className="text-center"
+  >
+    <h1
+      className="logo-name"
+    >
+      Marketplace
+    </h1>
+  </div>
+  <div
+    className="middle-box text-center loginscreen animated fadeInDown"
+  >
+    <div>
+      <h3>
+        Welcome to Marketplace
+      </h3>
+      <p>
+        Please enter your username and password to log in.
+      </p>
+      <form
+        className="m-t"
+        role="form"
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            placeholder="Username"
+            required=""
+            type="email"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            placeholder="Password"
+            required=""
+            type="password"
+          />
+        </div>
+        <button
+          className="btn btn-primary block full-width m-b"
+          type="submit"
+        >
+          Login
+        </button>
+        <a
+          aria-current={false}
+          className={undefined}
+          href="forgot_password"
+          onClick={[Function]}
+          style={undefined}
+        >
+          <small>
+            Forgot password?
+          </small>
+        </a>
+        <p
+          className="text-muted text-center"
+        >
+          <small>
+            Do not have an account?
+          </small>
+        </p>
+        <p
+          className="text-muted text-center"
+        >
+          Contact Sales Or Your Account Manager
+        </p>
+      </form>
+      <p
+        className="m-t"
+      >
+         
+        <small>
+          Konnektive Corp. © 2018
+        </small>
+         
+      </p>
+    </div>
+  </div>
+</div>
+`;

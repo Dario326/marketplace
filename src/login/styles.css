@@ -1,0 +1,56 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.login-screen{
+    max-width: 400px;
+}
+.login-logo{
+    border-bottom-style: solid;
+    /* border-color: #A28D5B; */
+    border-width: 3px;    
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 0 100%, from(#A28D5B), to(rgba(0, 0, 0, 0))) 100% 1;
+    -webkit-border-image: 
+      -webkit-linear-gradient(#A28D5B, rgba(0, 0, 0, 0)) 100% 1;
+    -moz-border-image:
+      -moz-linear-gradient(#A28D5B, rgba(0, 0, 0, 0)) 100% 1;
+    -o-border-image:
+      -o-linear-gradient(#A28D5B, rgba(0, 0, 0, 0)) 100% 1;
+    border-image:
+      linear-gradient(to right, #A28D5B, rgba(0, 0, 0, 0)) 100% 1;
+}
+.forgotPassword{
+    color: #A28D5B;
+}
+.relative{
+  position: relative;
+}
+.loginBtn{
+  opacity: 0.4;
+  position: relative;
+}
+.loginBtn:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.loginBtn.active{
+  opacity: 1;
+}
+.loginBtn.active:after{
+  content: "";
+  display: none
+}
+.loginLoader{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}

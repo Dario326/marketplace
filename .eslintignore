@@ -1,0 +1,6 @@
+# Ignore built files except build/index.js
+config/*
+public/*
+scripts/*
+src/vendors
+src/serviceWorker.js
